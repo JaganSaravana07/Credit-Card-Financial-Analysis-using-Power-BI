@@ -23,6 +23,7 @@ Through data visualization, key insights into customer spending habits, transact
 1. Prepare CSV file
 2. Create tables in SQL
 3. Import CSV file into SQL
+
 *Note: I used Postgresql Database*
 
 ## DAX Queries Used
