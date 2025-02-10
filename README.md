@@ -59,8 +59,9 @@ Through data visualization, key insights into customer spending habits, transact
     FILTER(
     ALL('public cc_detail'),
     'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])))
-```
-6. ```Previous_week_Reveneue = CALCULATE(
+   ```
+6. ```
+   Previous_week_Reveneue = CALCULATE(
     SUM('public cc_detail'[Revenue]),
     FILTER(
     ALL('public cc_detail'),
