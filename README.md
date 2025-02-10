@@ -26,7 +26,7 @@ Through data visualization, key insights into customer spending habits, transact
 *Note: I used Postgresql Database*
 
 ## DAX Queries Used
-1. AgeGroup = SWITCH(
+1. `AgeGroup = SWITCH(
      TRUE(),
      'public cust_detail'[customer_age] < 30, "20-30",
      'public cust_detail'[customer_age] >= 30 && 'public cust_detail'[customer_age] < 40, "30-40",
@@ -34,26 +34,26 @@ Through data visualization, key insights into customer spending habits, transact
      'public cust_detail'[customer_age] >= 50 && 'public cust_detail'[customer_age] < 60, "50-60",
      'public cust_detail'[customer_age] >= 60, "60+",
      "unknown"
-   )
-2. IncomeGroup = SWITCH(
+   )`
+2. `IncomeGroup = SWITCH(
      TRUE(),
      'public cust_detail'[income] < 35000, "Low",
      'public cust_detail'[income] >= 35000 && 'public cust_detail'[income] <70000, "Med",
      'public cust_detail'[income] >= 70000, "High",
      "unknown"
-   )
-3. week_num2 = WEEKNUM('public cc_detail'[week_start_date])
-4. Revenue = 'public cc_detail'[annual_fees] + 'public cc_detail'[total_trans_amt] + 'public cc_detail'[interest_earned]
-5. Current_week_Reveneue = CALCULATE(
+   )`
+3. `week_num2 = WEEKNUM('public cc_detail'[week_start_date])`
+4. `Revenue = 'public cc_detail'[annual_fees] + 'public cc_detail'[total_trans_amt] + 'public cc_detail'[interest_earned]`
+5. `Current_week_Reveneue = CALCULATE(
     SUM('public cc_detail'[Revenue]),
     FILTER(
     ALL('public cc_detail'),
-    'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])))
-6. Previous_week_Reveneue = CALCULATE(
+    'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])))`
+6. `Previous_week_Reveneue = CALCULATE(
     SUM('public cc_detail'[Revenue]),
     FILTER(
     ALL('public cc_detail'),
-    'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])-1))
+    'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])-1))`
 
 ## Conclusion & Key Takeaways
 - Steady Quarterly Growth: Revenue and transaction count show consistent growth across Q1–Q4, with Q4 being the highest-performing quarter ($14.5M revenue).
