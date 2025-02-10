@@ -84,11 +84,11 @@ Through data visualization, key insights into customer spending habits, transact
    - Improve customer satisfaction (currently 3.19/5) by reducing transaction fees, offering better rewards, and personalizing services.
    - Develop premium card incentives to attract high- net-worth customers, increasing Gold & Platinum card adoption.
 2. Optimizing Revenue Growth & Transaction Behavior
-  a. Encourage online transactions by offering higher rewards, enhanced security features, and exclusive digital promotions.
-  b. Leverage customer segmentation insights to offer tailored benefits based on age, income, and education level.
-  c. Capitalize on high-revenue states (CA, NJ, TX, NY) by launching region-specific marketing campaigns and financial services.
+   - Encourage online transactions by offering higher rewards, enhanced security features, and exclusive digital promotions.
+   - Leverage customer segmentation insights to offer tailored benefits based on age, income, and education level.
+   - Capitalize on high-revenue states (CA, NJ, TX, NY) by launching region-specific marketing campaigns and financial services.
 3. Expanding Market Reach & Acquisition
-  a. Reduce customer acquisition costs for lower- performing segments by implementing AI-driven targeting and digital onboarding strategies.
-  b. Increase financial inclusivity by introducing low- interest products for middle-income and younger customers.
-  c. Expand advertising and partnership efforts in growing markets (Florida, Texas, emerging urban centers).
+   - Reduce customer acquisition costs for lower- performing segments by implementing AI-driven targeting and digital onboarding strategies.
+   - Increase financial inclusivity by introducing low- interest products for middle-income and younger customers.
+   - Expand advertising and partnership efforts in growing markets (Florida, Texas, emerging urban centers).
 
