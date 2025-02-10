@@ -26,7 +26,7 @@ Through data visualization, key insights into customer spending habits, transact
 *Note: I used Postgresql Database*
 
 ## DAX Queries Used
-1. `AgeGroup = SWITCH(
+1. ```AgeGroup = SWITCH(
      TRUE(),
      'public cust_detail'[customer_age] < 30, "20-30",
      'public cust_detail'[customer_age] >= 30 && 'public cust_detail'[customer_age] < 40, "30-40",
@@ -34,7 +34,7 @@ Through data visualization, key insights into customer spending habits, transact
      'public cust_detail'[customer_age] >= 50 && 'public cust_detail'[customer_age] < 60, "50-60",
      'public cust_detail'[customer_age] >= 60, "60+",
      "unknown"
-   )`
+   )```
 2. `IncomeGroup = SWITCH(
      TRUE(),
      'public cust_detail'[income] < 35000, "Low",
