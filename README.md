@@ -20,7 +20,7 @@ Through data visualization, key insights into customer spending habits, transact
 - Assess customer acquisition cost and retention strategies for different credit card categories.
 
 ## Dashboard Overview
-![Dashboard](https://github.com/JaganSaravana07/Credit-Card-Financial-Analysis-using-Power-BI/blob/main/Credit_Card%20Financial%20Dashboard.pdf)
+![Dashboard](C:\Users\jagan\OneDrive\Pictures\Screenshots\Screenshot 2025-02-09 154741.png)
 
 
 
